@@ -1,5 +1,9 @@
-local plrf = "ginchao12","Quanphan01299","ZzKenKK1"
-if game.Players:FindFirstChild(plrf) then
+local plr = game.Players
+if plr:FindFirstChild("Quanphan01299") then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
+elseif plr:FindFirstChild("ginchao12") then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
+elseif game.Players:FindFirstChild("ZzKenKK1") then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
 else
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
