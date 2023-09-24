@@ -1,6 +1,6 @@
 local plrf = "ginchao12","Quanphan01299","ZzKenKK1"
 if game.Players:FindFirstChild(plrf) then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Vietnampiece2-dutru/main/Second%20Sea'))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
 else
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
@@ -39,16 +39,6 @@ end
 end
 })
 end
-
-
-
-
-
-
-
-
-
-
 
 
 
