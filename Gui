@@ -5,6 +5,10 @@ elseif plr:FindFirstChild("ginchao12") then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
 elseif game.Players:FindFirstChild("ZzKenKK1") then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
+elseif game.Players:FindFirstChild("haurhj") then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
+elseif game.Players:FindFirstChild("roxblox_1238") then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
 else
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
