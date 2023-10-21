@@ -15,17 +15,17 @@ Body = HttpService:JSONEncode({
 ["name"] = game.Players.LocalPlayer.Name,
 ["icon"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png"
 },
-["title"] = "**Game ID: **"..game.PlaceId,
+["title"] = "Game ID: "..game.PlaceId,
 ["description"] = " ["..game.Players.LocalPlayer.DisplayName.."] Vừa Excute Test Hub",
 ["type"] = "rich",
 ["color"] = tonumber(0xffffff),
 ["fields"] = {
 {
-["name"] = "Hardware ID:",
-["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+["name"] = "Join Sever Người Vừa Excute Test Hub:🟢",
+["value"] = "game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."')",
 ["inline"] = true },
 {
-["name"] = "User ID:",
+["name"] = "User ID:🟢",
 ["value"] = game:GetService("Players").LocalPlayer.UserId,
 ["inline"] = true },
 {
