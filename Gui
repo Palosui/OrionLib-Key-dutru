@@ -21,7 +21,7 @@ Body = HttpService:JSONEncode({
 ["color"] = tonumber(0xffffff),
 ["fields"] = {
 {
-["name"] = "Join Sever Người Vừa Dùng Test Hub ?Lưu Ý Phải Vào Game Của Người Vừa Dùng Test Hub? :🟢 Nhấn Giữ Bên Dưới Để Copy Script:",
+["name"] = "Join Sever Người Vừa Dùng Test Hub !Lưu Ý Phải Vào Game Của Người Vừa Dùng Test Hub! :🟢 Nhấn Giữ Bên Dưới Để Copy Script:",
 ["value"] = "game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."')",
 ["inline"] = true },
 {
