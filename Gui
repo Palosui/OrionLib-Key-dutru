@@ -15,27 +15,46 @@ Body = HttpService:JSONEncode({
 ["name"] = game.Players.LocalPlayer.Name,
 ["icon"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png"
 },
-["title"] = "game:GetService('TeleportService'): Teleport): "..game.PlaceId,
-["description"] = " ["..game.Players.LocalPlayer.DisplayName.."] Vừa Excute Test Hub",
+["title"] = "Game ID: "..game.PlaceId,
+["description"] = " ["..game.Players.LocalPlayer.DisplayName.."] Vừa Dùng Test Hub",
 ["type"] = "rich",
 ["color"] = tonumber(0xffffff),
 ["fields"] = {
 {
-["name"] = "Join Sever Người Vừa Excute Test Hub:🟢",
+["name"] = "Join Sever Người Vừa Dùng Test Hub?Lưu Ý Phải Vào Game Của Người Vừa Dùng Test Hub?:🟢",
 ["value"] = "game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."')",
 ["inline"] = true },
 {
-["name"] = "User ID:🟢",
+["name"] = "Người Dùng ID:🟢",
 ["value"] = game:GetService("Players").LocalPlayer.UserId,
 ["inline"] = true },
 {
-["name"] = "Age:",
+["name"] = "Join Game Người Vừa Dùng Test Hub:🟢",
+["value"] = "game:GetService('TeleportService'):Teleport("..game.PlaceId..")",
+["inline"] = true },
+{
+["name"] = "Số tuổi của Account:🟢",
 ["value"] = game:GetService("Players").LocalPlayer.AccountAge,
 ["inline"] = true }
 }
 }}
 })
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
