@@ -114,7 +114,6 @@ Tab:AddButton({Name = "Check Key",Callback = function()
 if getgenv().Keyin == Key then
 keya()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Palosui/OrionLib/main/Gui'))() 
-    end
 else
 keyf()
 end
