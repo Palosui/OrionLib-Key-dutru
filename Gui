@@ -106,7 +106,7 @@ end
 local Key = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/HTT/main/Key"))()
 getgenv().Keyin = ""
 
-Tab:AddTextbox({Name = "Private Key",Default = "",Callback = function(v)
+Tab:AddTextbox({Name = "Private Key",Default = "vinhquang",Callback = function(v)
 getgenv().Keyin = v
 end    
 })
